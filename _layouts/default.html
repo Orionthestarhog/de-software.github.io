@@ -80,9 +80,9 @@
             <h2 class="text-white mb-4">Latest Blogs from DE Software!</h2>
             <p class="text-white-50">
               {% for post in site.posts limit:25 %}
-                <a href="{{ post.url }}">{{ post.title }}</a>
+                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
                 <br>
-                {{ post.author }} - {{ post.date | date_to_string }}
+                <a href="https://twitter.com/{{ post.twitter }}">{{ post.author }}</a> - {{ post.date | date_to_string }}
                 <br>&nbsp;<br>
               {% endfor %}
             </p>
