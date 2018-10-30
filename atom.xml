@@ -8,7 +8,7 @@ layout: nil
 	<link href="https://de-software.github.io" />
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>https://de-software.github.io/</id>
-	<icon>/social.jpg</icon>
+	<icon>https://de-software.github.io/social.jpg</icon>
 	<author>
 		<name>DE Software</name>
 		<email>contact.de.software@gmail.com</email>
