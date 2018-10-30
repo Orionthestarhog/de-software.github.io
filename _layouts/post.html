@@ -8,6 +8,7 @@
     <meta name="description" content="{{ page.description }}">
     <meta name="author" content="DE Software">
     <meta name="theme-color" content="#D41818">
+    <link href="https://de-software.github.io/favicon.png" rel="shortcut icon">
 
     <title>DE Software - {{ page.title }}</title>
 
@@ -79,8 +80,7 @@
           <div class="col-lg-8 mx-auto">
             <h2 class="text-white mb-4">{{ page.title }}</h2>
             <p class="text-white-50"><a href="https://twitter.com/{{ page.twitter }}" target="_blank">{{ page.author }}</a> - {{ page.date | date_to_long_string }}</p>
-            <div class="text-white-50" style="float: left;">{{ content }}</div>
-            <br>&nbsp;<br>
+            <div class="text-white-50">{{ content }}</div>
           </div>
         </div>
       </div>
