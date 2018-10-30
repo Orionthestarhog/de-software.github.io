@@ -1,7 +1,7 @@
 ---
 layout: post
 title: We now have a blog!
-description:Cool things have arrived! Our website now has a blog page!
+description: Cool things have arrived! Our website now has a blog page!
 author: DomElement
 twitter: DomElement0001
 image: social.jpg
