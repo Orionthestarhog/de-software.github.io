@@ -1,3 +1,7 @@
+---
+layout: nill
+---
+
 # Privacy Policy
 Your privacy is important to us. It is DE Software's policy to respect your privacy regarding any information we may collect from you across our website, http://de-software.tk/, and other sites we own and operate.
 
