@@ -1,0 +1,20 @@
+---
+layout: nill
+---
+<?xml version="1.0" encoding="utf-8"?>
+<blogposts>
+	{% for post in site.posts %}
+	<blogpost>
+	  	<url>http://de-software.github.io{{ post.url }}</url>
+	  	<title>{{ post.title }}</title>
+	  	<author>
+	    	<name>{{ post.author }}</name>
+	    	<twitter>https://twitter.com/{{ post.twitter }}</twitter>
+	  	</author>
+	  	<datestamp>{{ post.date | date_to_xmlschema }}</datestamp>
+	  	<description>{{ post.description }}</description>
+	  	<image>https://de-software.github.io/{{ post.image }}</image>
+	  	<content type="html">{{ post.content | xml_escape }}</content>
+	</blogpost>
+	{% endfor %}
+</blogposts>
