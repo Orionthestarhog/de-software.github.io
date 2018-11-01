@@ -9,7 +9,7 @@ layout: nil
 </url>
 {% for post in site.posts %}
 <url>
-  <loc>{{ post.url }}</loc>
+  <loc>http://de-software.tk{{ post.url }}</loc>
   <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
   <priority>0.64</priority>
 </url>
