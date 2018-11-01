@@ -5,7 +5,7 @@ layout: nill
 <blogposts>
 	{% for post in site.posts %}
 	<blogpost>
-	  	<url>http://de-software.github.io{{ post.url }}</url>
+	  	<link="http://de-software.github.io{{ post.url }}"/>
 	  	<title>{{ post.title }}</title>
 	  	<author>
 	    	<name>{{ post.author }}</name>
