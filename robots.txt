@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://de-software.github.io/sitemap.xml
